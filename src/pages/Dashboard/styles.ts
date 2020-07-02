@@ -69,14 +69,20 @@ export const Repositories = styled.div`
       border-radius: 50%;
     }
     div {
-      font-size: 20px;
-      color: #3d3d4d;
+      margin-left: 16px;
+      flex: 1;
+
+      strong {
+        font-size: 20px;
+        color: #3d3d4d;
+      }
+      p {
+        font-size: 20px;
+        color: #a8a8b3;
+        margin-top: 4px;
+      }
     }
-    p {
-      font-size: 20px;
-      color: #a8a8b3;
-      margin-top: 4px;
-    }
+
     svg {
       margin-left: auto;
       color: #cbcbd6;
