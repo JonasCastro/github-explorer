@@ -30,6 +30,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "object-curly-newline": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -39,6 +40,9 @@
       }
     ],
     "react/jsx-one-expression-per-line": "off",
+    "implicit-arrow-linebreak": "off",
+    "indent":"off",
+    "operator-linebreak":"off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "camelcase": "off",
